@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 3761b5d25792f264dda8
+            clientSecret: 1d17893b5ef6388799021470116c85395a91fa59
+            redirectUri: http://localhost:4200/callback
+
